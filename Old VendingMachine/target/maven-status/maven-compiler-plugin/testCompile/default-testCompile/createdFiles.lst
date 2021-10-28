@@ -1,0 +1,4 @@
+VendingMachine/dao/Inmemorytest.class
+VendingMachine/Service/VendingMachineServiceLayerTest.class
+VendingMachine/dao/VendingMachineDaoFileimplTest.class
+VendingMachine/dao/AlwaysFailDao.class

@@ -1,0 +1,5 @@
+Water::1.50::1
+Mountain dew::1.00::4
+Sprite::1.00::8
+Coco cola::1.00::0
+Vitamin Water::2.00::6

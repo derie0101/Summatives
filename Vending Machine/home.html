@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vending Machine</title>
+
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/site.css" rel="stylesheet" />
+  </head>
+  <body>
+    <body style="background-color:pink;">
+
+      <div class="container">
+          <header id="pageHeader" class="text-center"><h1> Adam's Vending Machine</h1></header>
+          <p style="text-align: center">The #1 Vending Machine In The World!!!</p>
+          <hr />
+          <ul class="list-group" id="errorMessages"></ul>
+
+          <div class="row">
+
+              <div class="col-md-8 flex-container"id = 'vend'>
+
+
+
+
+
+              </div>
+
+              <div class="col-md-4">
+
+                  <div class="col-md-12">
+                      <h2 id="total-header">Total $ In</h2>
+
+                      <div class="form-group">
+                          <label class="sr-only" for="total-money-in">Total $ In</label>
+                          <input type="text" size="7" id="total-money-in" disabled/>
+                      </div>
+                  </div>
+
+                  <div class="col-md-6">
+
+                      <button type="button"
+                              id="add-dollar-button"
+                              class="btn btn-default btn-sm btn-block">
+                          Add Dollar
+                      </button>
+                      <br />
+                      <button type="button"
+                              id="add-dime-button"
+                              class="btn btn-default btn-sm btn-block">
+                          Add Dime
+                      </button>
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                      <button type="button"
+                              id="add-quarter-button"
+                              class="btn btn-default btn-sm btn-block">
+                          Add Quarter
+                      </button>
+                      <br />
+
+                      <button type="button"
+                              id="add-nickel-button"
+                              class="btn btn-default btn-sm btn-block">
+                          Add Nickel
+                      </button>
+
+                  </div>
+                  <hr />
+                  <div class="col-md-12 text-center">
+                      <h2 id="messages-header">Messages</h2>
+
+                      <div class="form-group">
+                          <label class="sr-only" for="messages">Messages</label>
+                          <input type="text" class="text-center" size="27" id="messages" disabled />
+                      </div>
+
+                      <div class="form-group">
+                          <label for="item-selected" style="font-size: 30px; font-weight: normal">Item:  </label>
+                          <input type="text" class="text-center" size="7" id="item-selected" disabled/>
+                      </div>
+                      <div class="col-md-3">
+                      </div>
+
+                      <div class="col-md-6">
+                          <button type="button"
+                                  id="make-purchase-button"
+                                  class="btn btn-default btn-sm btn-block">
+                              Make Purchase
+                          </button>
+                      </div>
+
+                      <div class="col-md-3">
+                      </div>
+                      <hr />
+                      <div class="col-md-12 text-center">
+                          <h2>Change</h2>
+
+                          <div class="form-group">
+                              <label class="sr-only" for="change">Change</label>
+                              <input type="text" class="text-center" size="32" id="change" disabled/>
+                          </div>
+
+                      </div>
+
+                      <div class="col-md-3">
+                      </div>
+
+                      <div class="col-md-6">
+                          <button type="button"
+                                  id="change-return-button"
+                                  class="btn btn-default btn-sm btn-block">
+                              Change Return
+                          </button>
+                      </div>
+              </div>
+
+          </div>
+
+
+          </div>
+
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
